@@ -57,8 +57,13 @@ function rotateCubeInit(){
 function rotCubeMain(face){
 	clearInterval(timerRotateCube);
 	var rotationValues;
+	var volverInicio = false;
 
 	switch (face) {
+		case 0:
+	        cuboZoom = false;
+	        volverInicio = true;
+	        break;
 	    case 1:
 	        rotationValues = 'rotateX(0deg) rotateY(0deg) rotateZ(0deg)';
 	        break;
@@ -96,6 +101,15 @@ function rotCubeMain(face){
 		    	top: '0'
 			});
 		}, 1000);
+
+	}else if(!cuboZoom && volverInicio){
+		$('#cubo').css('-webkit-transform', 'rotateX(60deg) rotateY(60deg) rotateZ(60deg)');
+		$('#escena').css('transform', 'scale(0.2)');
+		centerScene();
+		setTimeout(function(){ 
+			$('#cubo').css('transition','none');
+			rotateCubeInit();
+		}, 3000);
 
 	}else{
 		$('#cubo').css({ transition: 'all 3s' });
