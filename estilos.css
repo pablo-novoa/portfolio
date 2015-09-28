@@ -55,7 +55,7 @@ nav a{
     height: 100vw;
 }
 
-.princpal {
+.cara{
     position: absolute;
     left: 0;
     top: 0;
@@ -63,32 +63,26 @@ nav a{
     height: 100vw;
 }
 
-#pagina1{
-	background-color: #F2F2F2;
-	transform: translateZ(50vw);
-}
+#pagina1{ transform: translateZ(50vw); }
+#pagina2{ transform: rotateX(-90deg) translateZ(50vw); }
+#pagina3{ transform: rotateY(180deg) translateZ(50vw); }
+#pagina4{ transform: rotateX(90deg) translateZ(50vw); }
+#pagina5{ transform: rotateY(90deg) translateZ(50vw); }
+#pagina6{ transform: rotateY(-90deg) translateZ(50vw); }
 
-#pagina2{
-	background-color: #D1D1D1;
-	transform: rotateX(-90deg) translateZ(50vw);
-}
+#pagina1 .grilla{ background-color: #F2F2F2; }
+#pagina2 .grilla{ background-color: #D1D1D1; }
+#pagina3 .grilla{ background-color: #C2C2C2; }
+#pagina4 .grilla{ background-color: #A5A5A5; }
+#pagina5 .grilla{ background-color: #8B8B8B; }
+#pagina6 .grilla{ background-color: #414141; }
 
-#pagina3{
-	background-color: #C2C2C2;
-	transform: rotateY(180deg) translateZ(50vw);
-}
-
-#pagina4{
-	background-color: #A5A5A5;
-	transform: rotateX(90deg) translateZ(50vw);
-}
-
-#pagina5{
-	background-color: #8B8B8B;
-	transform: rotateY(90deg) translateZ(50vw);
-}
-
-#pagina6{
-	background-color: #414141;
-	transform: rotateY(-90deg) translateZ(50vw);
+.cara_int{
+    width: 100vw;
+    height: 99vw;
+    background: #0f0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
 }
