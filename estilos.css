@@ -67,6 +67,7 @@ nav a:hover{
 	height: 10vw;    
 	border: solid 3px #000;
 	float: left;
+    transition: all 0.5s;
     box-sizing: border-box;
 }
 

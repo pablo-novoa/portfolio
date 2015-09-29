@@ -10,7 +10,6 @@ $(document).ready(function(){
 		
 	});
 
-	
 	$('.main_menu').click( function(){ 
 		var thisFaceID = $(this).data('cara');
 		rotCubeMain(thisFaceID);
@@ -106,6 +105,10 @@ function rotCubeMain(face){
 			});
 		}, 1000);
 
+		/*setTimeout(function(){ 
+			sacarGrilla(face);
+		}, 3000);*/
+
 	}else if(!cuboZoom && volverInicio && !cuboEstadoInit){
 		$('#cubo').css('-webkit-transform', 'rotateX(60deg) rotateY(60deg) rotateZ(60deg)');
 		$('#escena').css('transform', 'scale(0.2)');
@@ -131,4 +134,21 @@ function rotCubeMain(face){
 
 }
 
+function sacarGrilla(face){
+	$('#pagina'+face+' .grilla').each(function(i, e){
+      window.setTimeout(function() {
+        $(e).css('background','transparent');
+      }, Math.random() * 2000);
+    });
+}
+
+function ponerGrilla(face){
+	$('#pagina'+face+' .grilla').each(function(i, e){
+      window.setTimeout(function() {
+        $(e).removeAttr('style');
+      }, Math.random() * 2000);
+    });
+}
+
+ 
 
