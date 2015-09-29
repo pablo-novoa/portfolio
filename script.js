@@ -1,5 +1,6 @@
 var cuboZoom = false;
 var cuboEstadoInit = true;
+var paginaActual = 0;
 $(document).ready(function(){
 	centerScene();
 	printGrilla();
@@ -88,6 +89,7 @@ function rotCubeMain(face){
 	}
 
 	if(cuboZoom){
+		ponerGrilla(paginaActual);
 		$('#cubo').css('-webkit-transform', 'rotateX(60deg) rotateY(45deg) rotateZ(60deg)');
 		$('#escena').css({
 	    	transform: 'scale(0.3)',
@@ -105,11 +107,14 @@ function rotCubeMain(face){
 			});
 		}, 1000);
 
-		/*setTimeout(function(){ 
+		
+		setTimeout(function(){ 
 			sacarGrilla(face);
-		}, 3000);*/
+		}, 3000);
+		paginaActual = face;
 
 	}else if(!cuboZoom && volverInicio && !cuboEstadoInit){
+		ponerGrilla(paginaActual);
 		$('#cubo').css('-webkit-transform', 'rotateX(60deg) rotateY(60deg) rotateZ(60deg)');
 		$('#escena').css('transform', 'scale(0.2)');
 		centerScene();
@@ -119,6 +124,7 @@ function rotCubeMain(face){
 		}, 3000);
 
 		cuboEstadoInit = true;
+		paginaActual = face;
 
 	}else if(!volverInicio){
 		$('#cubo').css({ transition: 'all 3s' });
@@ -129,7 +135,13 @@ function rotCubeMain(face){
 		});
 		$('#cubo').css('-webkit-transform', rotationValues);
 
+		
+		setTimeout(function(){ 
+			sacarGrilla(face);
+		}, 3000);
 		cuboZoom = true;
+		paginaActual = face;
+		
 	}
 
 }
