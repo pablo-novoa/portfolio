@@ -121,7 +121,7 @@ function rotCubeMain(face){
 		setTimeout(function(){ 
 			$('#cubo').css('transition','none');
 			rotateCubeInit();
-		}, 3000);
+		}, 2800);
 
 		cuboEstadoInit = true;
 		paginaActual = face;
@@ -158,7 +158,7 @@ function ponerGrilla(face){
 	$('#pagina'+face+' .grilla').each(function(i, e){
       window.setTimeout(function() {
         $(e).removeAttr('style');
-      }, Math.random() * 2000);
+      }, Math.random() * 800);
     });
 }
 
