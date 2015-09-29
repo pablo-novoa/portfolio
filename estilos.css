@@ -4,6 +4,7 @@ body {
     padding: 0;
     overflow: hidden;
     background-image: url('imgs/bk.svg');
+    font-family: 'Lekton', sans-serif;
     background-color: #ededed;
     background-position: 50% 27%;
     background-size: 100%;
@@ -12,17 +13,53 @@ body {
 header {
     position: fixed;
    	z-index: 10;
+    height: 100vh;
+    background-color: #000;
+    padding: 0;
+    box-sizing: border-box;
+    width: 150px;
+}
+
+#logo{
+    text-align: center; 
+    margin: 0; 
+    padding: 30px 20px 0 20px;
+    line-height: 21px;
+    font-weight: normal;
+    color: #fff;
+}
+
+#logo a{
+    color: #eaeaea;
+    text-decoration: none;
+}
+
+#logo a:hover{
+    text-transform: uppercase;
+}
+
+#logo span{ 
+    display: block;
+    padding-left: 1px; 
 }
 
 nav ul{
 	list-style: none;
+    padding: 0;
+    width: 100%;
 }
-
 nav a{
 	text-decoration: none;
-	color: #000;
-	padding: 10px;
+    text-align: right; 
+    padding: 10px 30px;
+	color: #eaeaea;
 	display: block;
+    transition: all 0.2s;
+}
+
+nav a:hover{
+    color: #000;
+    background-color: #eaeaea;
 }
 
 .grilla{

@@ -111,7 +111,7 @@ function rotCubeMain(face){
 			rotateCubeInit();
 		}, 3000);
 
-	}else{
+	}else if(!volverInicio){
 		$('#cubo').css({ transition: 'all 3s' });
 		$('#escena').css({
 	    	transform: 'scale(1)',
