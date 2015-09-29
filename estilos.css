@@ -85,7 +85,7 @@ nav a:hover{
 
 #cubo {
     -webkit-transform-style: preserve-3d;
-    -webkit-transform: rotateX(60deg) rotateY(45deg) rotateZ(60deg);
+    -webkit-transform: rotateX(60deg) rotateY(60deg) rotateZ(60deg);
     position: absolute;
     top: 0;
     left: 0;
