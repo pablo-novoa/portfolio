@@ -22,7 +22,7 @@ function printGrilla(){
 	$('.cara').each(function(){
 		var caraID = $(this).attr('id');
 		for (var i = 0; i < 100; i++) {
-			$(this).append('<div class="grilla">'+caraID+'</div>');
+			$(this).append('<div class="grilla"></div>');
 		}
 	});
 }
