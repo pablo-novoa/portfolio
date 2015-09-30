@@ -67,7 +67,7 @@ nav a:hover{
 	height: 10vw;    
 	border: solid 3px #000;
 	float: left;
-    transition: all 0.5s;
+    transition: opacity 0.3s;
     box-sizing: border-box;
 }
 
@@ -119,7 +119,9 @@ nav a:hover{
 .cara_int{
     width: 100vw;
     height: 99vw;
-    background: #0f0;
+    background-color: #e65238;
+    padding: 10vw 0 0 20vw;
+    box-sizing: border-box;
     position: absolute;
     top: 0;
     left: 0;

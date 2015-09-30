@@ -150,11 +150,20 @@ function sacarGrilla(face){
 	$('#pagina'+face+' .grilla').each(function(i, e){
       window.setTimeout(function() {
         $(e).css('background','transparent');
-      }, Math.random() * 2000);
+      }, Math.random() * 1500);
     });
+
+   setTimeout(function() {
+    	$('#pagina'+face+' .grilla').css('opacity','0');
+      }, 2000);
+
+   setTimeout(function() {
+        $('#pagina'+face+' .grilla').css('display','none');
+      }, 2500);
 }
 
 function ponerGrilla(face){
+	$('#pagina'+face+' .grilla').css('display','block');
 	$('#pagina'+face+' .grilla').each(function(i, e){
       window.setTimeout(function() {
         $(e).removeAttr('style');
