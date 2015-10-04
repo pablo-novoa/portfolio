@@ -99,6 +99,7 @@ function rotCubeMain(face, trabajo){
 		});
 
 		setTimeout(function(){ 
+			$('#pagina'+paginaActual+' .cara_wrap').html('');
 			$('#cubo').css({ transition: 'all 2s' });
 			$('#cubo').css('transform', rotationValues); 
 			$('#escena').css({
@@ -107,9 +108,8 @@ function rotCubeMain(face, trabajo){
 		    	top: '0'
 			});
 			contenidoCaras(face, trabajo);
+			paginaActual = face;
 		}, 1000);
-	
-		paginaActual = face;
 
 	}else if(!cuboZoom && volverInicio && !cuboEstadoInit){
 		ponerGrilla(paginaActual);
@@ -117,12 +117,13 @@ function rotCubeMain(face, trabajo){
 		$('#escena').css('transform', 'scale(0.2)');
 		centerScene();
 		setTimeout(function(){ 
+			$('#pagina'+paginaActual+' .cara_wrap').html('');
 			$('#cubo').css('transition','none');
 			rotateCubeInit();
+			paginaActual = face;
 		}, 2800);
 
 		cuboEstadoInit = true;
-		paginaActual = face;
 
 	}else if(!volverInicio){
 		$('#cubo').css({ transition: 'all 3s' });
@@ -165,12 +166,12 @@ function sacarGrilla(face){
     });
 
    setTimeout(function() {
-    	$('#pagina'+face+' .grilla').css('opacity','0.1');
+    	$('#pagina'+face+' .grilla').css('opacity','0');
       }, 2000);
 
-   /*setTimeout(function() {
+   setTimeout(function() {
         $('#pagina'+face+' .grilla').css('display','none');
-      }, 2500);*/
+      }, 2500);
 }
 
 function ponerGrilla(face){
@@ -180,6 +181,8 @@ function ponerGrilla(face){
         $(e).removeAttr('style');
       }, Math.random() * 800);
     });
+
+    //$('#pagina'+face+' .cara_wrap').html('');
 }
 
 
