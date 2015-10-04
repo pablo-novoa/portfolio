@@ -72,7 +72,7 @@ nav a:hover{
 }
 
 #escena {
-    -webkit-perspective: 800vw;
+    perspective: 800vw;
     width: 100vw;
     height: 0;
     position: absolute;
@@ -84,8 +84,8 @@ nav a:hover{
 }
 
 #cubo {
-    -webkit-transform-style: preserve-3d;
-    -webkit-transform: rotateX(60deg) rotateY(60deg) rotateZ(60deg);
+    transform-style: preserve-3d;
+    transform: rotateX(60deg) rotateY(60deg) rotateZ(60deg);
     position: absolute;
     top: 0;
     left: 0;

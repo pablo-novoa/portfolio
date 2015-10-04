@@ -36,7 +36,7 @@ function rotateCubeInit(){
 
 	var rotDeg = [60, true];
 	timerRotateCube = setInterval(function(){ 
-		$('#cubo').css('-webkit-transform', 'rotateX('+rotDeg[0]+'deg) rotateY('+rotDeg[0]+'deg) rotateZ('+rotDeg[0]+'deg)');
+		$('#cubo').css('transform', 'rotateX('+rotDeg[0]+'deg) rotateY('+rotDeg[0]+'deg) rotateZ('+rotDeg[0]+'deg)');
 
 		switch( rotDeg[1] ) {
 		    case true:
@@ -90,7 +90,7 @@ function rotCubeMain(face){
 
 	if(cuboZoom){
 		ponerGrilla(paginaActual);
-		$('#cubo').css('-webkit-transform', 'rotateX(60deg) rotateY(45deg) rotateZ(60deg)');
+		$('#cubo').css('transform', 'rotateX(60deg) rotateY(45deg) rotateZ(60deg)');
 		$('#escena').css({
 	    	transform: 'scale(0.3)',
 	    	transition: 'all 1s',
@@ -99,7 +99,7 @@ function rotCubeMain(face){
 
 		setTimeout(function(){ 
 			$('#cubo').css({ transition: 'all 2s' });
-			$('#cubo').css('-webkit-transform', rotationValues); 
+			$('#cubo').css('transform', rotationValues); 
 			$('#escena').css({
 		    	transform: 'scale(1)',
 		    	transition: 'all 2s',
@@ -115,7 +115,7 @@ function rotCubeMain(face){
 
 	}else if(!cuboZoom && volverInicio && !cuboEstadoInit){
 		ponerGrilla(paginaActual);
-		$('#cubo').css('-webkit-transform', 'rotateX(60deg) rotateY(60deg) rotateZ(60deg)');
+		$('#cubo').css('transform', 'rotateX(60deg) rotateY(60deg) rotateZ(60deg)');
 		$('#escena').css('transform', 'scale(0.2)');
 		centerScene();
 		setTimeout(function(){ 
@@ -133,7 +133,7 @@ function rotCubeMain(face){
 	    	transition: 'all 3s',
 	    	top: '0'
 		});
-		$('#cubo').css('-webkit-transform', rotationValues);
+		$('#cubo').css('transform', rotationValues);
 
 		
 		setTimeout(function(){ 
