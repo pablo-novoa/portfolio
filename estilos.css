@@ -120,10 +120,49 @@ nav a:hover{
     width: 100vw;
     height: 99.5vw;
     background-color: #e65238;
-    padding: 10vw 0 0 20vw;
-    box-sizing: border-box;
     position: absolute;
     top: 0;
     left: 0;
     z-index: -1;
+}
+
+/*contenidos caras*/
+.cara_item{
+    background: #fff;
+    border: solid 3px #e65238;
+    box-sizing: border-box;
+    position: absolute;
+}
+
+.cara_item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.top_0 { top: 0vw; }
+.top_10{ top: 10vw; }
+.top_20{ top: 20vw; }
+.top_30{ top: 30vw; }
+
+.left_20{ left: 20vw; }
+.left_30{ left: 30vw; }
+.left_50{ left: 50vw; }
+.left_60{ left: 60vw; }
+.left_70{ left: 70vw; }
+.left_80{ left: 80vw; }
+
+.size_30_30{
+    width: 30vw;
+    height: 30vw;
+}
+
+.size_20_20{
+    width: 20vw;
+    height: 20vw;
+}
+
+.size_10_10{
+    width: 10vw;
+    height: 10vw;
 }

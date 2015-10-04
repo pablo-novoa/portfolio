@@ -107,10 +107,8 @@ function rotCubeMain(face){
 			});
 		}, 1000);
 
-		
-		setTimeout(function(){ 
-			sacarGrilla(face);
-		}, 3000);
+		contenidoCaras(face);
+	
 		paginaActual = face;
 
 	}else if(!cuboZoom && volverInicio && !cuboEstadoInit){
@@ -135,15 +133,28 @@ function rotCubeMain(face){
 		});
 		$('#cubo').css('transform', rotationValues);
 
+		contenidoCaras(face);
 		
-		setTimeout(function(){ 
-			sacarGrilla(face);
-		}, 3000);
 		cuboZoom = true;
 		paginaActual = face;
 		
 	}
 
+}
+
+function contenidoCaras(face){
+	$.ajax({
+        url: "caras_cont.php?cara="+face,
+        type:"get",
+        cache: false,
+		dataType:"html"
+    }).done(function(datos) {
+    	$("#pagina"+face+" .cara_int").html(datos);
+        setTimeout(function(){ 
+			sacarGrilla(face);
+		}, 3000);
+        
+    });
 }
 
 function sacarGrilla(face){
@@ -170,6 +181,8 @@ function ponerGrilla(face){
       }, Math.random() * 800);
     });
 }
+
+
 
  
 
