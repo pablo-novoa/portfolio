@@ -152,7 +152,7 @@ function contenidoCaras(face, trabajo){
     	$("#pagina"+face+" .cara_wrap").html(datos);
         setTimeout(function(){ 
 			sacarGrilla(face);
-		}, 3000);
+		}, 2000);
         
     });
 }
