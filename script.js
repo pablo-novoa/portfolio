@@ -165,12 +165,12 @@ function sacarGrilla(face){
     });
 
    setTimeout(function() {
-    	$('#pagina'+face+' .grilla').css('opacity','0');
+    	$('#pagina'+face+' .grilla').css('opacity','0.1');
       }, 2000);
 
-   setTimeout(function() {
+   /*setTimeout(function() {
         $('#pagina'+face+' .grilla').css('display','none');
-      }, 2500);
+      }, 2500);*/
 }
 
 function ponerGrilla(face){

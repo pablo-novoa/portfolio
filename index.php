@@ -14,14 +14,14 @@
 			<h1 id="logo"><a href="#" class="main_menu" data-cara="0">Pablo<span>Novoa</span></a></h1>
 			<nav>
 				<ul>
-					<li><a href="#" class="main_menu" data-cara="1" data-trabajo="1">pagina 1</a></li>
-					<li><a href="#" class="main_menu" data-cara="2" data-trabajo="2">pagina 2</a></li>
-					<li><a href="#" class="main_menu" data-cara="3" data-trabajo="3">pagina 3</a></li>
-					<li><a href="#" class="main_menu" data-cara="4" data-trabajo="4">pagina 4</a></li>
-					<li><a href="#" class="main_menu" data-cara="5" data-trabajo="5">pagina 5</a></li>
-					<li><a href="#" class="main_menu" data-cara="6" data-trabajo="6">pagina 6</a></li>
-					<li><a href="#" class="main_menu" data-cara="2" data-trabajo="7">pagina 7</a></li>
-					<li><a href="#" class="main_menu" data-cara="1" data-trabajo="8">pagina 8</a></li>
+					<li><a href="#" class="main_menu" data-cara="1" data-trabajo="1">Awesome Music Store</a></li>
+					<li><a href="#" class="main_menu" data-cara="2" data-trabajo="2">Selkirk</a></li>
+					<li><a href="#" class="main_menu" data-cara="3" data-trabajo="3">App Clima</a></li>
+					<li><a href="#" class="main_menu" data-cara="4" data-trabajo="4">Música Sinfónica</a></li>
+					<li><a href="#" class="main_menu" data-cara="5" data-trabajo="5">Elecciones Departamentales</a></li>
+					<li><a href="#" class="main_menu" data-cara="6" data-trabajo="6">Festival de jazz de Montreal</a></li>
+					<li><a href="#" class="main_menu" data-cara="2" data-trabajo="7">La Granola</a></li>
+					<li><a href="#" class="main_menu" data-cara="1" data-trabajo="8">Vinos "La Toscana"</a></li>
 				</ul>
 			</nav>
 		</header>

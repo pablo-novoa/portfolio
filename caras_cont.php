@@ -22,8 +22,15 @@ switch ($trabajo){
 <?php break;
 	case '2': ?>
 
-<div class="cara_int" style="background: #0fc; border-color: #0fc;">
-	trabajo 2
+<div class="cara_int" style="background: #531320; border-color: #531320;">
+		<div class="cara_item size_30_30 top_10 left_20"> trabajo 2</div>
+
+		<div class="cara_item size_10_10 top_10 left_50"></div>
+		<div class="cara_item size_10_10 top_10 left_70"></div>
+		<div class="cara_item size_10_10 top_20 left_60"></div>
+		<div class="cara_item size_10_10 top_20 left_80"></div>
+		<div class="cara_item size_10_10 top_30 left_50"></div>
+
 </div>
 
 <?php break;
@@ -64,8 +71,15 @@ switch ($trabajo){
 <?php break;
 	case '8': ?>
 
-<div class="cara_int" style="background: #0fc; border-color: #0fc;">
-	trabajo 8
+<div class="cara_int" style="background: #531320; border-color: #531320;">
+		<div class="cara_item size_30_30 top_10 left_20"><img src="imgs/vino_1.jpg"/></div>
+
+		<div class="cara_item size_10_10 top_10 left_50"><img src="imgs/vino_2.jpg"/></div>
+		<div class="cara_item size_10_10 top_10 left_70"><img src="imgs/vino_3.jpg"/></div>
+		<div class="cara_item size_10_10 top_20 left_60"><img src="imgs/vino_4.jpg"/></div>
+		<div class="cara_item size_10_10 top_20 left_80"><img src="imgs/vino_5.jpg"/></div>
+		<div class="cara_item size_10_10 top_30 left_50"><img src="imgs/vino_6.jpg"/></div>
+
 </div>
 
 <?php
