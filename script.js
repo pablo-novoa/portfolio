@@ -13,7 +13,8 @@ $(document).ready(function(){
 
 	$('.main_menu').click( function(){ 
 		var thisFaceID = $(this).data('cara');
-		rotCubeMain(thisFaceID);
+		var thisTrabajoID = $(this).data('trabajo');
+		rotCubeMain(thisFaceID, thisTrabajoID);
 	});
 
 });
@@ -55,7 +56,7 @@ function rotateCubeInit(){
 
 }
 
-function rotCubeMain(face){
+function rotCubeMain(face, trabajo){
 	if(cuboEstadoInit && face != 0 ){ 
 		clearInterval(timerRotateCube); 
 		cuboEstadoInit = false;
@@ -105,9 +106,8 @@ function rotCubeMain(face){
 		    	transition: 'all 2s',
 		    	top: '0'
 			});
+			contenidoCaras(face, trabajo);
 		}, 1000);
-
-		contenidoCaras(face);
 	
 		paginaActual = face;
 
@@ -133,7 +133,7 @@ function rotCubeMain(face){
 		});
 		$('#cubo').css('transform', rotationValues);
 
-		contenidoCaras(face);
+		contenidoCaras(face, trabajo);
 		
 		cuboZoom = true;
 		paginaActual = face;
@@ -142,9 +142,9 @@ function rotCubeMain(face){
 
 }
 
-function contenidoCaras(face){
+function contenidoCaras(face, trabajo){
 	$.ajax({
-        url: "caras_cont.php?cara="+face,
+        url: "caras_cont.php?trabajo="+trabajo,
         type:"get",
         cache: false,
 		dataType:"html"
