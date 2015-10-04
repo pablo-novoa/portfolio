@@ -26,22 +26,22 @@
 		<div id="escena">
 			<div id="cubo">
 				<div class="cara" id="pagina1">
-					<div class="cara_int"></div>
+					<div class="cara_wrap"></div>
 				</div>
 				<div class="cara" id="pagina2">
-					<div class="cara_int"></div>
+					<div class="cara_wrap"></div>
 				</div>
 				<div class="cara" id="pagina3">
-					<div class="cara_int"></div>
+					<div class="cara_wrap"></div>
 				</div>
 				<div class="cara" id="pagina4">
-					<div class="cara_int"></div>
+					<div class="cara_wrap"></div>
 				</div>
 				<div class="cara" id="pagina5">
-					<div class="cara_int"></div>
+					<div class="cara_wrap"></div>
 				</div>
 				<div class="cara" id="pagina6">
-					<div class="cara_int"></div>
+					<div class="cara_wrap"></div>
 				</div>
 			</div>
 		</div>

@@ -149,7 +149,7 @@ function contenidoCaras(face){
         cache: false,
 		dataType:"html"
     }).done(function(datos) {
-    	$("#pagina"+face+" .cara_int").html(datos);
+    	$("#pagina"+face+" .cara_wrap").html(datos);
         setTimeout(function(){ 
 			sacarGrilla(face);
 		}, 3000);
