@@ -19,7 +19,7 @@
 					<li><a href="#" class="main_menu" data-cara="3" data-trabajo="3">App Clima</a></li>
 					<li><a href="#" class="main_menu" data-cara="4" data-trabajo="4">Música Sinfónica</a></li>
 					<li><a href="#" class="main_menu" data-cara="5" data-trabajo="5">Elecciones Departamentales</a></li>
-					<li><a href="#" class="main_menu" data-cara="6" data-trabajo="6">Festival de jazz de Montreal</a></li>
+					<li><a href="#" class="main_menu" data-cara="6" data-trabajo="6">Festival de Jazz de Montreal</a></li>
 					<li><a href="#" class="main_menu" data-cara="2" data-trabajo="7">La Granola</a></li>
 					<li><a href="#" class="main_menu" data-cara="1" data-trabajo="8">Vinos "La Toscana"</a></li>
 				</ul>
