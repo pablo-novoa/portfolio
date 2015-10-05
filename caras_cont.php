@@ -6,7 +6,7 @@ switch ($trabajo){
 	case '1':?>
 
 <div class="cara_int" style="background: #e65238; border-color: #e65238;">
-		<div class="cara_item size_30_30 top_10 left_20"> trabajo 1</div>
+		<div class="cara_item_big size_30_30 top_10 left_20"> trabajo 1</div>
 
 		<div class="cara_item size_10_10 top_0 left_30"></div>
 		<div class="cara_item size_10_10 top_0 left_60"></div>
@@ -23,7 +23,7 @@ switch ($trabajo){
 	case '2': ?>
 
 <div class="cara_int" style="background: #8b0000; border-color: #8b0000;">
-		<div class="cara_item size_30_30 top_10 left_20"><img src="imgs/selkirk/s1.jpg"/></div>
+		<div class="cara_item_big size_30_30 top_10 left_20"><img src="imgs/selkirk/s1.jpg"/></div>
 
 		<div class="cara_item size_10_10 top_0 left_30"><img src="imgs/selkirk/s2.jpg"/></div>
 		<div class="cara_item size_10_10 top_0 left_60"><img src="imgs/selkirk/s3.jpg"/></div>
@@ -46,7 +46,7 @@ switch ($trabajo){
 	case '4': ?>
 
 <div class="cara_int" style="background: #69878f; border-color: #69878f;">
-		<div class="cara_item size_30_30 top_10 left_20"><img src="imgs/musica_sinfonica/01-musica.jpg"/></div>
+		<div class="cara_item_big size_30_30 top_10 left_20"><img src="imgs/musica_sinfonica/01-musica.jpg"/></div>
 
 		<div class="cara_item size_10_10 top_0 left_30"><img src="imgs/musica_sinfonica/02-musica.jpg"/></div>
 		<div class="cara_item size_10_10 top_0 left_60"><img src="imgs/musica_sinfonica/03-musica.jpg"/></div>
@@ -72,7 +72,7 @@ switch ($trabajo){
 	case '6': ?>
 
 <div class="cara_int" style="background: #5069ab; border-color: #5069ab;">
-		<div class="cara_item size_30_30 top_10 left_20"><img src="imgs/jazz/jazz1.jpg"/></div>
+		<div class="cara_item_big size_30_30 top_10 left_20"><img src="imgs/jazz/jazz1.jpg"/></div>
 
 		<div class="cara_item size_10_10 top_0 left_60"><img src="imgs/jazz/jazz2.jpg"/></div>
 		<div class="cara_item size_10_10 top_10 left_50"><img src="imgs/jazz/jazz3.jpg"/></div>
@@ -94,7 +94,7 @@ switch ($trabajo){
 	case '8': ?>
 
 <div class="cara_int" style="background: #531320; border-color: #531320;">
-		<div class="cara_item size_30_30 top_10 left_20"><img src="imgs/vino/vino_1.jpg"/></div>
+		<div class="cara_item_big size_30_30 top_10 left_20"><img src="imgs/vino/vino_1.jpg"/></div>
 
 		<div class="cara_item size_10_10 top_10 left_50"><img src="imgs/vino/vino_2.jpg"/></div>
 		<div class="cara_item size_10_10 top_10 left_70"><img src="imgs/vino/vino_3.jpg"/></div>
