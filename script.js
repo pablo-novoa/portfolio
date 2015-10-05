@@ -11,13 +11,28 @@ $(document).ready(function(){
 		
 	});
 
-	$('.main_menu').click( function(){ 
+	/*$('.main_menu').click( function(){ 
 		var thisFaceID = $(this).data('cara');
 		var thisTrabajoID = $(this).data('trabajo');
 		rotCubeMain(thisFaceID, thisTrabajoID);
-	});
+	});*/
+
+	/*$('.main_menu').on("click", function(){
+	    var thisFaceID = $(this).data('cara');
+		var thisTrabajoID = $(this).data('trabajo');
+		rotCubeMain(thisFaceID, thisTrabajoID);
+	});*/
+	menuClickEvent();
 
 });
+
+function menuClickEvent(){
+	$('.main_menu').on("click", function(){
+	    var thisFaceID = $(this).data('cara');
+		var thisTrabajoID = $(this).data('trabajo');
+		rotCubeMain(thisFaceID, thisTrabajoID);
+	});
+}
 
 function printGrilla(){
 	$('.cara').each(function(){
@@ -57,6 +72,7 @@ function rotateCubeInit(){
 }
 
 function rotCubeMain(face, trabajo){
+	$('.main_menu').off();
 	if(cuboEstadoInit && face != 0 ){ 
 		clearInterval(timerRotateCube); 
 		cuboEstadoInit = false;
@@ -121,6 +137,7 @@ function rotCubeMain(face, trabajo){
 			$('#cubo').css('transition','none');
 			rotateCubeInit();
 			paginaActual = face;
+			menuClickEvent();
 		}, 2800);
 
 		cuboEstadoInit = true;
@@ -171,6 +188,7 @@ function sacarGrilla(face){
 
    setTimeout(function() {
         $('#pagina'+face+' .grilla').css('display','none');
+        menuClickEvent();
       }, 2500);
 }
 
