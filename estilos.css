@@ -188,4 +188,5 @@ nav a:hover{
 .link_sitio:hover, .link_sitio:hover a{
     color: #eaeaea;
     background-color: #000;
+    opacity: 1;
 }
