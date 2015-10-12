@@ -67,8 +67,16 @@ switch ($trabajo){
 <?php break;
 	case '5': ?>
 
-<div class="cara_int" style="background: #0fc; border-color: #0fc;">
-	trabajo 5
+<div class="cara_int" style="background: #189ed6; border-color: #189ed6;">
+		<div class="cara_item_big size_40_30 top_10 left_20"><img src="imgs/votos/votos1.jpg"/></div>
+
+		<div class="cara_item size_10_10 top_0 left_60"><img src="imgs/votos/votos2.jpg"/></div>
+		<div class="cara_item size_10_10 top_0 left_30"><img src="imgs/votos/votos3.jpg"/></div>
+		<div class="cara_item size_10_10 top_20 left_60"><img src="imgs/votos/votos4.jpg"/></div>
+		<div class="cara_item size_10_10 top_10 left_70"><img src="imgs/votos/votos5.jpg"/></div>
+		<div class="cara_item size_10_10 top_30 left_70"><img src="imgs/votos/votos1.jpg"/></div>
+
+		<div class="cara_item size_10_10 top_30 left_80 link_sitio"><a href="#">Ir al sitio</a></div>
 </div>
 
 <?php break;
