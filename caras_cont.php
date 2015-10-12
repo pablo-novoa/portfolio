@@ -37,8 +37,13 @@ switch ($trabajo){
 <?php break;
 	case '3': ?>
 
-<div class="cara_int" style="background: #0fc; border-color: #0fc;">
-	trabajo 3
+<div class="cara_int" style="background: #1a4a8c; border-color: #1a4a8c;">
+		<div class="cara_item_big size_40_30 top_10 left_20"><img src="imgs/clima/clima1.jpg"/></div>
+		
+		<div class="cara_item size_10_10 top_20 left_60"><img src="imgs/clima/clima2.jpg"/></div>
+		<div class="cara_item size_10_10 top_10 left_70"><img src="imgs/clima/clima1.jpg"/></div>
+
+		<div class="cara_item size_10_10 top_30 left_80 link_sitio"><a href="#">Ir al sitio</a></div>
 </div>
 
 <?php break;
@@ -84,8 +89,14 @@ switch ($trabajo){
 <?php break;
 	case '7': ?>
 
-<div class="cara_int" style="background: #0fc; border-color: #0fc;">
-	trabajo 7
+<div class="cara_int" style="background: #F6871F; border-color: #F6871F;">
+		<div class="cara_item_big size_40_30 top_10 left_20"><img src="imgs/lagranola/lagranola1.jpg"/></div>
+
+		<div class="cara_item size_10_10 top_20 left_60"><img src="imgs/lagranola/lagranola2.jpg"/></div>
+		<div class="cara_item size_10_10 top_10 left_70"><img src="imgs/lagranola/lagranola1.jpg"/></div>
+		<div class="cara_item size_10_10 top_30 left_70"><img src="imgs/lagranola/lagranola3.jpg"/></div>
+
+		<div class="cara_item size_10_10 top_30 left_80 link_sitio"><a href="#">Ir al sitio</a></div>
 </div>
 
 <?php break;
