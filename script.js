@@ -11,17 +11,9 @@ $(document).ready(function(){
 		
 	});
 
-	/*$('.main_menu').click( function(){ 
-		var thisFaceID = $(this).data('cara');
-		var thisTrabajoID = $(this).data('trabajo');
-		rotCubeMain(thisFaceID, thisTrabajoID);
-	});*/
 
-	/*$('.main_menu').on("click", function(){
-	    var thisFaceID = $(this).data('cara');
-		var thisTrabajoID = $(this).data('trabajo');
-		rotCubeMain(thisFaceID, thisTrabajoID);
-	});*/
+	
+
 	menuClickEvent();
 
 });
@@ -171,7 +163,7 @@ function contenidoCaras(face, trabajo){
         setTimeout(function(){ 
 			sacarGrilla(face);
 		}, 2000);
-        
+        galeriaImg();
     });
 }
 
@@ -200,9 +192,22 @@ function ponerGrilla(face){
       }, Math.random() * 800);
     });
 
-    //$('#pagina'+face+' .cara_wrap').html('');
 }
 
+
+function galeriaImg(){
+	$('.cara_item').click(function(){
+    	var thisImgURL = $(this).children('img').attr('src');
+    		
+    	$('.cara_item_big').css('opacity','0');
+    	setTimeout(function(){
+    		$('.cara_item_big img').attr('src',thisImgURL);
+    		$('.cara_item_big').css('opacity','1');
+    	}, 500);
+
+    });
+	
+}
 
 
  

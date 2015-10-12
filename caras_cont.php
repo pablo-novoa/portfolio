@@ -6,17 +6,16 @@ switch ($trabajo){
 	case '1':?>
 
 <div class="cara_int" style="background: #e65238; border-color: #e65238;">
-		<div class="cara_item_big size_40_30 top_10 left_20"> trabajo 1</div>
+		<div class="cara_item_big size_40_30 top_10 left_20"><img src="imgs/ams/ams1.jpg"/></div>
 
-		<div class="cara_item size_10_10 top_0 left_30"></div>
-		<div class="cara_item size_10_10 top_0 left_60"></div>
-		<div class="cara_item size_10_10 top_0 left_80"></div>
-		<div class="cara_item size_10_10 top_10 left_50"></div>
-		<div class="cara_item size_10_10 top_10 left_70"></div>
-		<div class="cara_item size_10_10 top_20 left_60"></div>
-		<div class="cara_item size_10_10 top_30 left_50"></div>
+		<div class="cara_item size_10_10 top_0 left_30"><img src="imgs/ams/ams2.jpg"/></div>
+		<div class="cara_item size_10_10 top_0 left_60"><img src="imgs/ams/ams3.jpg"/></div>
+		<div class="cara_item size_10_10 top_0 left_80"><img src="imgs/ams/ams4.jpg"/></div>
+		<div class="cara_item size_10_10 top_10 left_70"><img src="imgs/ams/ams1.jpg"/></div>
+		<div class="cara_item size_10_10 top_20 left_60"><img src="imgs/ams/ams5.jpg"/></div>
+		<div class="cara_item size_10_10 top_30 left_70"><img src="imgs/ams/ams6.jpg"/></div>
 
-		<div class="cara_item size_20_20 top_20 left_70"></div>
+		<div class="cara_item size_10_10 top_30 left_80 link_sitio"><a href="#">Ir al sitio</a></div>
 </div>
 
 <?php break;

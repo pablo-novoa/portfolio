@@ -1,0 +1,74 @@
+﻿<!doctype html>
+<html>
+<head>
+	<title>Clima</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link href="css/bootstrap.css" type="text/css" rel="stylesheet"/>
+	<link href="css/estilos.css" type="text/css" rel="stylesheet"/>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="js/script.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+				<div class="row lugar2">
+					<div class="col-lg-5 col-md-5 col-sm-5 col-xs-12" id="lugar"></div>
+					<div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
+						<input type="search" name="buscar_lugar" id="buscar_lugar"/>
+						<input type="submit" name="buscar" value="Buscar" id="buscar_btn" onclick="switch_lugar(); return false"/>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+						<img src="imgs/temp_max.png" height="40px"/>
+						<span id="max_temp"></span>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+						<img src="imgs/temp_min.png" height="40px"/>
+						<span id="min_temp"></span>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+						<h1 id="temp"><span></span></h1>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+						<div id="switch_temp">
+							<a href="#" id="switcher">
+								<img src="imgs/switch1.png" id="switch_barra"/>
+								<img src="imgs/switch2.png" id="switch_btn"/>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="row datos">
+					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center" id="nubes">
+						<img src="" class="iconos_clima"/>
+						<h3 class="nubes_estado"></h3>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center"  id="viento">
+						<img src="imgs/viento.png" class="iconos_clima"/>
+						<h3></h3>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center"  id="humedad">
+						<img src="imgs/humedad.png" class="iconos_clima"/>
+						<h3></h3>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center"  id="presion">
+						<img src="imgs/presion.png" class="iconos_clima"/>
+						<h3></h3>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+				<div class="row" id="pronosticos">
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

@@ -135,6 +135,10 @@ nav a:hover{
     position: absolute;
 }
 
+.cara_item_big{
+    transition: all 0.8s;
+}
+
 .cara_item img, .cara_item_big img{
     width: 100%;
     height: 100%;
