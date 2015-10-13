@@ -127,7 +127,7 @@ nav a:hover{
 }
 
 /*contenidos caras*/
-.cara_item, .cara_item_big{
+.cara_item, .cara_item_big, .link_sitio{
     background: #fff;
     border: solid 3px;
     border-color: inherit;

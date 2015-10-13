@@ -15,7 +15,7 @@ switch ($trabajo){
 		<div class="cara_item size_10_10 top_20 left_60"><img src="imgs/ams/ams5.jpg"/></div>
 		<div class="cara_item size_10_10 top_30 left_70"><img src="imgs/ams/ams6.jpg"/></div>
 
-		<div class="cara_item size_10_10 top_30 left_80 link_sitio"><a href="#">Ir al sitio</a></div>
+		<div class="size_10_10 top_30 left_80 link_sitio"><a href="http://pablonovoa.com/sitioprogram/" target="_blank">Ir al sitio</a></div>
 </div>
 
 <?php break;
@@ -31,7 +31,7 @@ switch ($trabajo){
 		<div class="cara_item size_10_10 top_20 left_60"><img src="imgs/selkirk/s1.jpg"/></div>
 		<div class="cara_item size_10_10 top_30 left_70"><img src="imgs/selkirk/s6.jpg"/></div>
 
-		<div class="cara_item size_10_10 top_30 left_80 link_sitio"><a href="#">Ir al sitio</a></div>
+		<div class="cara_item size_10_10 top_30 left_80 link_sitio"><a href="http://pablonovoa.com/trabajos/selkirk/" target="_blank">Ir al sitio</a></div>
 </div>
 
 <?php break;
@@ -43,7 +43,7 @@ switch ($trabajo){
 		<div class="cara_item size_10_10 top_20 left_60"><img src="imgs/clima/clima2.jpg"/></div>
 		<div class="cara_item size_10_10 top_10 left_70"><img src="imgs/clima/clima1.jpg"/></div>
 
-		<div class="cara_item size_10_10 top_30 left_80 link_sitio"><a href="#">Ir al sitio</a></div>
+		<div class="cara_item size_10_10 top_30 left_80 link_sitio"><a href="http://pablonovoa.com/trabajos/clima/" target="_blank">Ir al sitio</a></div>
 </div>
 
 <?php break;
@@ -61,7 +61,7 @@ switch ($trabajo){
 		<div class="cara_item size_10_10 top_20 left_80"><img src="imgs/musica_sinfonica/08-musica.jpg"/></div>
 		<div class="cara_item size_10_10 top_30 left_70"><img src="imgs/musica_sinfonica/10-musica.jpg"/></div>
 
-		<div class="cara_item size_10_10 top_30 left_80 link_sitio"><a href="#">Ir al sitio</a></div>
+		<div class="cara_item size_10_10 top_30 left_80 link_sitio"><a href="http://pablonovoa.com/trabajos/evolucion_web/" target="_blank">Ir al sitio</a></div>
 </div>
 
 <?php break;
@@ -76,7 +76,7 @@ switch ($trabajo){
 		<div class="cara_item size_10_10 top_10 left_70"><img src="imgs/votos/votos5.jpg"/></div>
 		<div class="cara_item size_10_10 top_30 left_70"><img src="imgs/votos/votos1.jpg"/></div>
 
-		<div class="cara_item size_10_10 top_30 left_80 link_sitio"><a href="#">Ir al sitio</a></div>
+		<div class="cara_item size_10_10 top_30 left_80 link_sitio"><a href="http://pablonovoa.com/trabajos/votos/" target="_blank">Ir al sitio</a></div>
 </div>
 
 <?php break;
@@ -91,7 +91,7 @@ switch ($trabajo){
 		<div class="cara_item size_10_10 top_10 left_70"><img src="imgs/jazz/jazz5.jpg"/></div>
 		<div class="cara_item size_10_10 top_30 left_70"><img src="imgs/jazz/jazz1.jpg"/></div>
 
-		<div class="cara_item size_10_10 top_30 left_80 link_sitio"><a href="#">Ir al sitio</a></div>
+		<div class="cara_item size_10_10 top_30 left_80 link_sitio"><a href="http://pablonovoa.com/trabajos/jazz_montreal/" target="_blank">Ir al sitio</a></div>
 </div>
 
 <?php break;
@@ -104,7 +104,7 @@ switch ($trabajo){
 		<div class="cara_item size_10_10 top_10 left_70"><img src="imgs/lagranola/lagranola1.jpg"/></div>
 		<div class="cara_item size_10_10 top_30 left_70"><img src="imgs/lagranola/lagranola3.jpg"/></div>
 
-		<div class="cara_item size_10_10 top_30 left_80 link_sitio"><a href="#">Ir al sitio</a></div>
+		<div class="cara_item size_10_10 top_30 left_80 link_sitio"><a href="http://pablonovoa.com/trabajos/lagranola/" target="_blank">Ir al sitio</a></div>
 </div>
 
 <?php break;
