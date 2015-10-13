@@ -3,6 +3,7 @@
 	<head>
 		<title>Pablo Novoa</title>
 		<meta charset="utf-8"/>
+		<link rel="icon" href="imgs/favicon.png" type="image/png" sizes="32x32">
 		<link href='https://fonts.googleapis.com/css?family=Lekton:400,700' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" type="text/css" href="estilos.css"/>
 
